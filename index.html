@@ -89,22 +89,41 @@
       <section>
         <h2>Записаться</h2>
         <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-        <!-- Здесь будет форма -->
+
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label for="signup-date">Дата</label>
+            <input id="signup-date" type="date" name="signup-date" value="" placeholder="08.10.2017">
+          </p>
+          <p>
+            <label for="signup-time">Время</label>
+            <input id="signup-time" type="time" name="signup-time" value="" placeholder="10:00">
+          </p>
+          <p>
+            <label for="signup-name">Ваше имя</label>
+            <input id="signup-name" type="text" name="signup-name" value="" placeholder="Борода">
+          </p>
+          <p>
+            <label for="signup-phone">Телефон</label>
+            <input id="signup-phone" type="text" name="signup-phone" value="" placeholder="+7 123 456-78-90">
+          </p>
+          <button type="submit">Отправить</button>
+        </form>
       </section>
     </main>
     <footer>
       <p>
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-        <a href="map.html">Как нас найти?</a><br>
+        <a href="">Как нас найти?</a><br>
         Телефон: +7 (812) 666-02-66
       </p>
       <div>
         <p>Давайте дружить!</p>
         <ul>
-          <li><a href="#">Вконтакте</a></li>
-          <li><a href="#">Фейсбук</a></li>
-          <li><a href="#">Инстаграм</a></li>
+          <li><a href="#"><span  class="visually-hidden">Вконтакте</span></a></li>
+          <li><a href="#"><span  class="visually-hidden">Фейсбук</span></a></li>
+          <li><a href="#"><span  class="visually-hidden">Инстаграм</span></a></li>
         </ul>
       </div>
       <p>
@@ -116,14 +135,33 @@
     <section>
       <h2>Личный кабинет</h2>
       <p>Введите свой логин и пароль.</p>
-      <!-- Здесь будет форма -->
+
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label class="visually-hidden" for="user-login">Логин</label>
+          <input id="user-login" type="text" name="user-login" value="" placeholder="Логин">
+        </p>
+        <p>
+          <label class="visually-hidden" for="user-password">Пароль</label>
+          <input id="user-password" type="password" name="user-password" value="" placeholder="Пароль">
+        </p>
+        <p>
+          <input id="user-remember" type="checkbox" name="user-remember" checked>
+          <label for="user-remember">Запомните меня</label>
+          <a href="">Я забыл пароль</a>
+        </p>
+        <button type="submit">Войти</button>
+      </form>
+
       <button type="button">Закрыть</button>
     </section>
 
     <section>
       <h2>Как до нас добраться</h2>
-      <img src="img/map.png" width="766" height="560" alt="Большая конюшенная улица д.19">
-      <button type="button">Закрыть</button>
+      <p>
+        <img src="img/map.png" width="766" height="560" alt="Офис компании по адресу: Большая конюшенная улица д.19">
+      </p>
+        <button type="button">Закрыть</button>
     </section>
   </body>
 </html>
