@@ -2,12 +2,12 @@
 
 * Студент: [Анна Кузнецова](https://up.htmlacademy.ru/htmlcss/26/user/993327).
 
----
+-----
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
----
+-----
 
 ### Памятка
 
